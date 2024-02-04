@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android.support="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/PreferanserKnappTilbake"
+            android:contentDescription="@string/til_hovedmenyen"
+            android:src="@drawable/back_arrow_tealish"
+            android:layout_marginTop="@dimen/Margin24"
+            android:layout_marginStart="@dimen/Margin24"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/innstillinger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/Margin32"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="italic"
+            android:textSize="@dimen/TextSize28"
+            android:text="@string/innstillinger"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/MarginTopItem"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/innstillinger"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <LinearLayout
+                android:id="@+id/linearVelgAntallRegnestykker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin64"
+                android:layout_marginEnd="@dimen/Margin64"
+                android:paddingStart="@dimen/Margin32"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/regnestykker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:text="@string/regnestykker"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/MarginTopItem"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/tall5"
+                        android:contentDescription="@string/tall5"
+                        android:layout_width="@dimen/ImageSize80"
+                        android:layout_height="@dimen/ImageSize80"
+                        android:scaleType="fitXY"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="@dimen/Margin8"
+                        android:layout_marginEnd="4dp"
+                        android:src="@drawable/colorful_five_inactive"
+                        />
+                    <ImageButton
+                        android:id="@+id/tall10"
+                        android:contentDescription="@string/tall10"
+                        android:layout_width="@dimen/ImageSize80"
+                        android:layout_height="@dimen/ImageSize80"
+                        android:scaleType="fitXY"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="@dimen/Margin8"
+                        android:src="@drawable/colorful_ten_inactive"
+                        />
+
+                    <ImageButton
+                        android:id="@+id/tall15"
+                        android:contentDescription="@string/tall15"
+                        android:layout_width="@dimen/ImageSize80"
+                        android:layout_height="@dimen/ImageSize80"
+                        android:scaleType="fitXY"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="@dimen/Margin8"
+                        android:layout_marginStart="@dimen/Margin8"
+                        android:src="@drawable/colorful_fifteen_inactive"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearVelgSpraak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin64"
+                android:layout_marginStart="@dimen/Margin64"
+                android:paddingEnd="@dimen/Margin32"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/velgSpraak"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:text="@string/velgSpraak"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/MarginTopItem"
+                    >
+                    <ImageButton
+                        android:id="@+id/no"
+                        android:contentDescription="@string/norsk"
+                        android:layout_width="@dimen/ImageSize80"
+                        android:layout_height="@dimen/ImageSize80"
+                        android:scaleType="fitXY"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="@dimen/PaddingXSmall"
+                        android:src="@drawable/norway_flag_cute_inactive"
+                        android:layout_marginEnd="@dimen/Margin12"
+                        />
+                    <ImageButton
+                        android:id="@+id/de"
+                        android:contentDescription="@string/tysk"
+                        android:layout_width="@dimen/ImageSize80"
+                        android:layout_height="@dimen/ImageSize80"
+                        android:scaleType="fitXY"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:padding="@dimen/PaddingXSmall"
+                        android:src="@drawable/germany_flag_cute_inactive"
+                        android:layout_marginStart="@dimen/Margin12"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

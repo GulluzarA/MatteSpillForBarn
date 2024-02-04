@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/SpillKnappAvslutt"
+            android:contentDescription="@string/til_hovedmenyen"
+            android:src="@drawable/back_arrow_tealish"
+            android:layout_marginTop="@dimen/Margin24"
+            android:layout_marginStart="@dimen/Margin24"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="@dimen/ImageSize48"
+            android:layout_height="@dimen/ImageSize48"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/spillTekstProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/MarginSmaller"
+            android:textStyle="italic"
+            android:textSize="@dimen/TextSize16"
+            android:text="@string/placeholder"
+            />
+
+        <ImageButton
+            android:id="@+id/spillFlaggNo"
+            android:contentDescription="@string/norsk"
+            android:src="@drawable/norway_flag_cute_inactive"
+            android:layout_marginTop="@dimen/Margin24"
+            android:layout_marginEnd="@dimen/Margin24"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="@dimen/ImageSize48"
+            android:layout_height="@dimen/ImageSize48"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/spillFlaggDe"
+            />
+
+        <ImageButton
+            android:id="@+id/spillFlaggDe"
+            android:contentDescription="@string/tysk"
+            android:src="@drawable/germany_flag_cute_inactive"
+            android:layout_marginTop="@dimen/Margin24"
+            android:layout_marginEnd="@dimen/Margin24"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_width="@dimen/ImageSize48"
+            android:layout_height="@dimen/ImageSize48"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/MarginTopItem"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/SpillTekstTittel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="@dimen/Margin64"
+                android:textSize="@dimen/TextSize40"
+                android:textStyle="bold"
+                android:text="@string/regnestykke"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin32"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/spillTekstTall1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/TextSize40"
+                    android:text="@string/tallPlaceholder"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/TextSize40"
+                    android:text="@string/pluss"
+                    />
+
+                <TextView
+                    android:id="@+id/spillTekstTall2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/TextSize40"
+                    android:text="@string/tallPlaceholder"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/TextSize40"
+                    android:text="@string/erlik"
+                    />
+
+                <TextView
+                    android:id="@+id/spillTekstSvar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/TextSize40"
+                    android:text=""
+                    />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/MarginTopItem"
+            >
+
+            <ImageButton
+                android:id="@+id/spillKnappSlett"
+                android:contentDescription="@string/knapp_beskrivelse_slett"
+                android:layout_width="@dimen/ImageSize80"
+                android:layout_height="@dimen/ImageSize80"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:layout_marginEnd="@dimen/Margin8"
+                android:src="@drawable/blackboard_eraser"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnappGo"
+                android:contentDescription="@string/knapp_beskrivelse_go"
+                android:layout_width="@dimen/ImageSize80"
+                android:layout_height="@dimen/ImageSize80"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:layout_marginStart="@dimen/Margin8"
+                android:src="@drawable/verify"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/MarginTopItem"
+            >
+
+            <ImageButton
+                android:id="@+id/spillKnapp0"
+                android:contentDescription="@string/knapp_beskrivelse_0"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_0"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnapp1"
+                android:contentDescription="@string/knapp_beskrivelse_1"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_1"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnapp2"
+                android:contentDescription="@string/knapp_beskrivelse_2"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_2"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnapp3"
+                android:contentDescription="@string/knapp_beskrivelse_3"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_3"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnapp4"
+                android:contentDescription="@string/knapp_beskrivelse_4"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_4"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnapp5"
+                android:contentDescription="@string/knapp_beskrivelse_5"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_5"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnapp6"
+                android:contentDescription="@string/knapp_beskrivelse_6"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_6"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnapp7"
+                android:contentDescription="@string/knapp_beskrivelse_7"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_7"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnapp8"
+                android:contentDescription="@string/knapp_beskrivelse_8"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_8"
+                />
+
+            <ImageButton
+                android:id="@+id/spillKnapp9"
+                android:contentDescription="@string/knapp_beskrivelse_9"
+                android:layout_width="@dimen/ImageSize64"
+                android:layout_height="@dimen/ImageSize64"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="@dimen/PaddingXSmall"
+                android:src="@drawable/number_9"
+                />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

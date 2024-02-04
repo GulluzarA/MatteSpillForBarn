@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/svarTekstTittel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textSize="@dimen/TextSize20"
+            android:text="@string/placeholder"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/Margin16"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/svarRegnestykket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/TextSize20"
+                    android:text="@string/placeholder" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/TextSize20"
+                    android:text="@string/placeholder" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/svarRiktigSvar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/TextSize20"
+                    android:text="@string/tallPlaceholder" />
+                <TextView
+                    android:id="@+id/svarDittSvar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/TextSize20"
+                    android:text="@string/tallPlaceholder" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/svarBilde"
+            android:layout_marginTop="@dimen/Margin16"
+            android:layout_marginBottom="@dimen/Margin16"
+            android:layout_width="@dimen/ImageSize32"
+            android:layout_height="@dimen/ImageSize32"
+            android:src="@drawable/kitty_thinking"
+            />
+
+        <!--android:layout_gravity="center"-->
+
+    </LinearLayout>
+
+</LinearLayout>

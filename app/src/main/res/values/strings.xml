@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Strings for StartActivity -->
+    <string name="app_name">Mattespill For Barn</string>
+    <string name="velkommen_tekst">Velkommen til Mattespillet! ⭐</string>
+    <string name="start_spillet">Start Spillet</string>
+    <string name="om_spillet">Om Spillet</string>
+    <string name="preferanser">Preferanser</string>
+    <string name="nytt_spill">Nytt spill</string>
+    <string name="spill_paa_nytt">Spill på nytt</string>
+    <string name="til_hovedmenyen">Til hovedmenyen</string>
+
+    <!-- Strings for OmActivity -->
+    <string name="om_spill"> 🚀 Hva er dette spillet?</string>
+    <string name="forklaring_innhold"> Dette er et lærerikt mattespill designet spesielt for barn som ønsker å ha det gøy, akkurat som deg!
+        Spillet vil vise ulike regnestykker, og din jobb er å finne det riktige svaret ved å trykke på de store tallene.</string>
+    <string name="hvordan_spille"> 🎮 Hvordan spiller jeg?</string>
+    <string name="spill_forklaring">1.Gå inn på preferanser og gjør endringer dersom du ønsker å endre språk eller antall regnestykker. Du kan fritt velge mellom 5, 10 eller 15 regnestykker.
+        \n\n2.Trykk på «Start spill» for å begynne.
+        \n\n3.Trykk på de store tallene for å skrive inn svaret ditt, trykk deretter ✔️ knappen. Ved feil tast kan du bruke 🧽 knappen for å fjerne svaret ditt.
+        \n\n4.Spillet forteller deg om du har rett eller galt svar, før du går videre til neste spørsmål.
+        \n\n5.Ved endt spill kan du fritt velge om du vil starte spillet på nytt, eller om du vil avslutte.
+    </string>
+    <string name="spill_maalet"> 🌟 Hva er målet?</string>
+    <string name="spillmaal_innhold"> Målet med spillet er å få så mange riktig svar som mulig, og lære addisjon mens du har det gøy!</string>
+
+    <!-- Strings for PreferanserActivity -->
+    <string name="innstillinger">Preferanser</string>
+    <string name="tall5">5</string>
+    <string name="tall10">10</string>
+    <string name="tall15">15</string>
+    <string name="velgSpraak">Velg språk</string>
+    <string name="norsk">Norsk</string>
+    <string name="tysk">Tysk</string>
+    <string name="no">No</string>
+    <string name="de">De</string>
+    <string name="regnestykker">Velg antall regnestykker</string>
+
+    <!-- Strings for SpillActivity -->
+    <string name="regnestykke">Regnestykke</string>
+    <string name="avslutte_bekreft">Vil du virkelig avslutte?</string>
+    <string name="nei">Nei</string>
+    <string name="ja">Ja</string>
+    <string name="du_er_ferdig">Du er ferdig!</string>
+    <string name="riktig">Riktig!</string>
+    <string name="feil">Nesten!</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="tallPlaceholder">-1</string>
+    <string name="pluss">\u0020+\u0020</string>
+    <string name="erlik">\u0020=\u0020</string>
+    <string name="knapp_beskrivelse_slett">Spill Knapp Slett</string>
+    <string name="knapp_beskrivelse_go">Spill Knapp Go</string>
+    <string name="knapp_beskrivelse_0">Spill Knapp 0</string>
+    <string name="knapp_beskrivelse_1">Spill Knapp 1</string>
+    <string name="knapp_beskrivelse_2">Spill Knapp 2</string>
+    <string name="knapp_beskrivelse_3">Spill Knapp 3</string>
+    <string name="knapp_beskrivelse_4">Spill Knapp 4</string>
+    <string name="knapp_beskrivelse_5">Spill Knapp 5</string>
+    <string name="knapp_beskrivelse_6">Spill Knapp 6</string>
+    <string name="knapp_beskrivelse_7">Spill Knapp 7</string>
+    <string name="knapp_beskrivelse_8">Spill Knapp 8</string>
+    <string name="knapp_beskrivelse_9">Spill Knapp 9</string>
+    <string name="tomt_svar">Svaret er tomt.</string>
+    <string name="noe_gikk_galt">Noe gikk galt...</string>
+    <string name="ditt_svar">Ditt svar:</string>
+    <string name="riktig_svar">Riktig svar: </string>
+
+    <!-- Strings for ResultatActivity -->
+    <string name="du_fikk_rett_paa">Du fikk rett på</string>
+    <string name="av">av</string>
+    <string name="resultat_regnestykker">regnestykker</string>
+    <string name="resultat_regnestykke">Regnestykke</string>
+    <string name="resultat_ditt_svar">Ditt svar:</string>
+
+    <!-- Strings for Dialoger -->
+    <string name="dialog_bilde">Dialog Bilde</string>
+
+</resources>

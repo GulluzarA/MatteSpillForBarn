@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mathe-Spiel für Kinder</string>
+    <string name="velkommen_tekst">Willkommen beim Mathe-Spiel! ⭐</string>
+    <string name="start_spillet">Starte das Spiel</string>
+    <string name="om_spillet">Über das Spiel</string>
+    <string name="preferanser">Präferenzen</string>
+    <string name="nytt_spill">Neues Spiel</string>
+    <string name="spill_paa_nytt">Nochmal abspielen</string>
+    <string name="til_hovedmenyen">Zum Hauptmenü</string>
+
+    <!-- Strings for OmSpillet -->
+    <string name="om_spill">" 🚀 Was ist dieses Spiel?"</string>
+    <string name="forklaring_innhold"> Dies ist ein lehrreiches Mathe-Spiel, das speziell für Kinder entwickelt wurde, die genau wie Sie Spaß haben wollen!
+         Das Spiel zeigt verschiedene Berechnungen an und Ihre Aufgabe ist es, die richtige Antwort zu finden, indem Sie die großen Zahlen drücken.</string>
+    <string name="hvordan_spille">" 🎮 Wie spiele ich?"</string>
+    <string name="spill_forklaring"> 1. Gehen Sie zu den Einstellungen und nehmen Sie Änderungen vor, wenn Sie die Sprache oder die Anzahl der Berechnungen ändern möchten. Sie können zwischen 5, 10 oder 15 Berechnungen frei wählen.
+         \n\n2.Drücken Sie „Spiel starten“, um zu beginnen.
+         \n\n3.Drücken Sie die großen Zahlen, um Ihre Antwort einzugeben, und drücken Sie dann die ✔️️-Taste. Wenn Sie den falschen Schlüssel eingeben, können Sie Ihre Antwort mit der Schaltfläche 🧽 entfernen.
+         \n\n4.Das Spiel sagt Ihnen, ob Sie eine richtige oder falsche Antwort haben, bevor es mit der nächsten Frage fortfährt.
+         \n\n5. Am Ende des Spiels können Sie frei wählen, ob Sie das Spiel erneut starten oder beenden möchten.
+    </string>
+    <string name="spill_maalet">" 🌟 Was ist das Ziel?"</string>
+    <string name="spillmaal_innhold">Das Ziel des Spiels ist es, so viele richtige Antworten wie möglich zu bekommen und dabei mit Spaß Additionen zu lernen!</string>
+
+
+
+    <!-- Preferanser -->
+    <string name="regnestykke">Arithmetik</string>
+    <string name="innstillinger">Präferenzen</string>
+    <string name="tall5">5</string>
+    <string name="tall10">10</string>
+    <string name="tall15">15</string>
+    <string name="velgSpraak">Wähle deine Sprache</string>
+    <string name="norsk">Norwegisch</string>
+    <string name="tysk">Deutsch</string>
+    <string name="no">No</string>
+    <string name="de">De</string>
+
+    <!-- Strings for SpillAktivitet -->
+    <string name="regnestykker">Wählen Sie die Anzahl der Berechnungen aus</string>
+    <string name="avslutte_bekreft">" Möchtest du wirklich aufhören?"</string>
+    <string name="nei">Nein</string>
+    <string name="ja">Ja</string>
+    <string name="du_er_ferdig">Du bist fertig!</string>
+    <string name="riktig">Richtig!</string>
+    <string name="feil">Fast!</string>
+    <string name="placeholder">Platzhalter</string>
+    <string name="tallPlaceholder">-1</string>
+    <string name="pluss">" + "</string>
+    <string name="erlik">" = "</string>
+    <string name="knapp_beskrivelse_slett">Play-Taste löschen</string>
+    <string name="knapp_beskrivelse_go">Spielen Sie Knapp Go</string>
+    <string name="knapp_beskrivelse_0">Play-Taste 0</string>
+    <string name="knapp_beskrivelse_1">Play-Taste 1</string>
+    <string name="knapp_beskrivelse_2">Play-Taste 2</string>
+    <string name="knapp_beskrivelse_3">Play-Taste 3</string>
+    <string name="knapp_beskrivelse_4">Play-Taste 4</string>
+    <string name="knapp_beskrivelse_5">Play-Taste 5</string>
+    <string name="knapp_beskrivelse_6">Play-Taste 6</string>
+    <string name="knapp_beskrivelse_7">Play-Taste 7</string>
+    <string name="knapp_beskrivelse_8">Play-Taste 8</string>
+    <string name="knapp_beskrivelse_9">Play-Taste 9</string>
+    <string name="tomt_svar">Die Antwort ist leer.</string>
+    <string name="noe_gikk_galt">Etwas ist schief gelaufen...</string>
+    <string name="ditt_svar">Deine Antwort:</string>
+    <string name="riktig_svar">Richtige Antwort: </string>
+    <string name="du_fikk_rett_paa">Du hast es richtig</string>
+    <string name="av">von</string>
+    <string name="resultat_regnestykker">berechnungen</string>
+    <string name="resultat_regnestykke">Arithmetik</string>
+    <string name="resultat_ditt_svar">Deine Antwort:</string>
+    <string name="dialog_bilde">Dialogbild</string>
+</resources>

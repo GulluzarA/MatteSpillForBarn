@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearResultatHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/Margin96"
+            android:paddingStart="@dimen/MainPaddingSides"
+            android:paddingEnd="@dimen/MainPaddingSides"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/resultatTekstOppsummering"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="@dimen/TextSizeHeader"
+                android:text="@string/placeholder"
+                />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/resultatConstraintKnapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/MarginTopHeader"
+            app:layout_constraintTop_toBottomOf="@id/linearResultatHeader"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <LinearLayout
+                android:id="@+id/linearResultatNyttSpill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/MainPaddingSides"
+                android:paddingEnd="@dimen/MainPaddingSides"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+
+                <ImageButton
+                    android:id="@+id/resultatKnappNyttSpill"
+                    android:contentDescription="@string/spill_paa_nytt"
+                    android:src="@drawable/multimedia_play_green"
+                    android:layout_width="@dimen/MainImageButtonSize"
+                    android:layout_height="@dimen/MainImageButtonSize"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/TextSizeItem"
+                    android:text="@string/spill_paa_nytt" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearOmSpillet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/MarginTopItem"
+                android:paddingStart="@dimen/MainPaddingSides"
+                android:paddingEnd="@dimen/MainPaddingSides"
+                app:layout_constraintTop_toBottomOf="@id/linearResultatNyttSpill"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                >
+
+                <ImageButton
+                    android:id="@+id/resultatKnappAvslutt"
+                    android:src="@drawable/back_arrow_tealish"
+                    android:layout_width="@dimen/MainImageButtonSize"
+                    android:layout_height="@dimen/MainImageButtonSize"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/til_hovedmenyen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/TextSizeItem"
+                    android:text="@string/til_hovedmenyen" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin96"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/resultatConstraintKnapper"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/resultatTekstAlleSvar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/TextSize24"
+                android:text="@string/placeholder"
+                />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

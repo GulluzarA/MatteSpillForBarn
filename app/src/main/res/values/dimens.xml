@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin -->
+    <dimen name="MarginTopHeader">64dp</dimen>
+    <dimen name="MarginTopItem">32dp</dimen>
+    <dimen name="Margin96">96dp</dimen>
+    <dimen name="Margin80">80dp</dimen>
+    <dimen name="Margin64">64dp</dimen>
+    <dimen name="Margin48">48dp</dimen>
+    <dimen name="Margin32">32dp</dimen>
+    <dimen name="Margin24">24dp</dimen>
+    <dimen name="Margin20">20dp</dimen>
+    <dimen name="Margin16">16dp</dimen>
+    <dimen name="Margin12">12dp</dimen>
+    <dimen name="Margin8">8dp</dimen>
+    <dimen name="MarginXXLarge">96dp</dimen>
+    <dimen name="MarginXLarger">80dp</dimen>
+    <dimen name="MarginXLarge">64dp</dimen>
+    <dimen name="MarginLarger">48dp</dimen>
+    <dimen name="MarginLarge">32dp</dimen>
+    <dimen name="MarginMedium">24dp</dimen>
+    <dimen name="MarginSmall">16dp</dimen>
+    <dimen name="MarginSmaller">12dp</dimen>
+    <dimen name="MarginXSmall">8dp</dimen>
+    <!-- Padding -->
+    <dimen name="PaddingLarge">32dp</dimen>
+    <dimen name="PaddingMedium">24dp</dimen>
+    <dimen name="PaddingSmall">16dp</dimen>
+    <dimen name="PaddingXSmall">8dp</dimen>
+    <dimen name="MainPaddingSides">32dp</dimen>
+    <!-- Buttons -->
+    <dimen name="MainImageButtonSize">96dp</dimen>
+    <dimen name="PlayImageButtonSize">64dp</dimen>
+    <dimen name="ButtonSizeXLarge">96dp</dimen>
+    <dimen name="ButtonSizeLarger">80dp</dimen>
+    <dimen name="ButtonSizeLarge">64dp</dimen>
+    <dimen name="ButtonSizeMedium">48dp</dimen>
+    <dimen name="ButtonSizeSmall">32dp</dimen>
+    <dimen name="ImageSize96">96dp</dimen>
+    <dimen name="ImageSize80">80dp</dimen>
+    <dimen name="ImageSize64">64dp</dimen>
+    <dimen name="ImageSize48">48dp</dimen>
+    <dimen name="ImageSize40">40dp</dimen>
+    <dimen name="ImageSize32">32dp</dimen>
+    <dimen name="ImageSize16">16dp</dimen>
+    <!-- Text -->
+    <dimen name="TextSizeHeader">24sp</dimen>
+    <dimen name="TextSizeItem">20sp</dimen>
+    <dimen name="TextSize40">40sp</dimen>
+    <dimen name="TextSize36">36sp</dimen>
+    <dimen name="TextSize32">32sp</dimen>
+    <dimen name="TextSize28">28sp</dimen>
+    <dimen name="TextSize24">24sp</dimen>
+    <dimen name="TextSize20">20sp</dimen>
+    <dimen name="TextSize16">16sp</dimen>
+    <dimen name="TextSize0">0sp</dimen>
+    <dimen name="TextSizeXLarge">32sp</dimen>
+    <dimen name="TextSizeLarger">28sp</dimen>
+    <dimen name="TextSizeLarge">24sp</dimen>
+    <dimen name="TextSizeMedium">20sp</dimen>
+    <dimen name="TextSizeSmall">16sp</dimen>
+</resources>
